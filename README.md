@@ -16,7 +16,7 @@ A **local** Python toolbox with a modular command-line menu. It is intended for 
 ## Installation (Linux/macOS)
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/hashdesk-toolkit.git
+git clone https://github.com/NVSROUNITED/hashdesk-toolkit.git
 cd hashdesk-toolkit
 python3 -m venv .venv
 source .venv/bin/activate
@@ -30,7 +30,7 @@ If the `hashdesk` command is unavailable, run `python -m hashdesk`. The `media` 
 ## Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/YOUR-USERNAME/hashdesk-toolkit.git
+git clone https://github.com/NVSROUNITED/hashdesk-toolkit.git
 cd hashdesk-toolkit
 py -m venv .venv
 .venv\Scripts\Activate.ps1
