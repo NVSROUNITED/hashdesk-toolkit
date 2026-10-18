@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hashdesk-toolkit"
+version = "0.1.0"
+description = "Boîte à outils locale pour hashes, métadonnées, documents et stéganographie pédagogique"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+media = ["Pillow>=10", "numpy>=1.26", "pypdf>=4", "python-docx>=1", "mutagen>=1.47"]
+
+[project.scripts]
+hashdesk = "hashdesk.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hashdesk*"]
